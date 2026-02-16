@@ -5,7 +5,7 @@ body {
     margin: 20px;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 400;
     font-style: normal;
     }
 
@@ -33,9 +33,10 @@ img {
     }
 
 .uvod {
-    margin: 15px;
+    margin: 15px auto;
     padding: 50px;
-    width: 1200px;
+    max-width: 1200px;
+    display: flow-root; 
     }
 
 /* buttony */    
@@ -57,9 +58,11 @@ margin: 10px;
 .menu {
     padding: 0;
     margin: 0;
+    list-style: none;
     text-align: center;
     background-color: #282425;
-}
+     clear: both;
+    }
 .menu li {
     display: inline-block;
 }
@@ -90,6 +93,9 @@ margin: 10px;
 @media (max-width: 768px) {
   .cv-layout {
     grid-template-columns: 1fr;
+  }
+    .menu a {
+    padding: 12px 14px;
   }
 }
 
