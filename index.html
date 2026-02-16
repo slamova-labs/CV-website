@@ -33,6 +33,12 @@ h1 {
 h2  {
      font-style: italic;
     }
+h3, h4 {
+    margin-bottom: 10px;
+}
+p {
+    margin-bottom: 8px;
+}
  
 img {
    float: left;
@@ -81,6 +87,17 @@ margin: 10px;
     background-color: #756158;
 }
 
+.cv-layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 30px;
+}
+.left {
+  padding-right: 20px;
+  border-right: 1px solid #ddd;
+  margin-bottom: 25px;
+}
+
 footer .nav a{
   width: 34px;
   height: 34px;
@@ -123,6 +140,9 @@ footer svg {
 </ul> 
 </div>
 
+<div class="cv-layout">
+    <div class="left">
+
 <!--vzdělání--> 
 <section id="education" class="education">
     <h3>Education</h3>
@@ -135,6 +155,52 @@ footer svg {
             2013 - 2016</li>
     </ul>
     </section>
+
+<!--dovednosti-->
+<section id="skills" class="skills">
+    <h3>Skills</h3>
+    <ul>
+        <li>Project Coordination | EU Affairs | Veterinary Policy</li>
+        <li>Team Leadership | Public Speaking | Crisis Management</li>
+        <li>Monitoring & Evaluation | Logical Reasoning | MS Office</li>
+        <li>Languages: Czech (C2), English (B2), French (A2), Spanish (A1)</li>
+        <li>Driving License (Group B)</li>
+    </ul>
+</section>
+
+<!--kurzy-->
+<section id="courses_certificates" class="courses_certificates">   
+<h3>Courses and certificates</h3>
+    <ul>
+        <li>AZ SMART// 2012-2013</li>
+            <p>Auxiliary Healthcare Worker </p>
+        <li>Horse Taping School// September 2018</li>
+            <p>Horse Taping Course </p> 
+        <li>Clerkship Examination</li> 
+    </ul>
+
+    <ul>
+        <li>Veterinary care// November 2019</li>
+        <li>Financing, management and monitoring of the Common Agricultural Policy// August 2022</li>
+        <li>Common European aid and assistance policies, European structural, investment and similar funds// September 2024</li>
+    </ul> 
+    <ul>
+        <li>Central Harmonisation Unit // October 2024</li>   
+         <p>Financial Control Act (training)</p>
+
+        <li>Laba// February-March 2025</li>  
+         <p>Leadership Course</p>
+
+        <li>Czechitas</li>
+         <p>Datová analýza - přeložit - popsat</p>
+         <p> HTML a CSS</p>
+
+        <li>Udemy</li>
+         <p>Full Stack developement</p>
+    </ul>
+</div>
+
+<div class="right">
 
 <!--zkušenosti--> 
 <section id="work_experience" class="work_experience">
@@ -183,48 +249,9 @@ footer svg {
     </ul>
 </section>
 
-<!--dovednosti-->
-<section id="skills" class="skills">
-    <h3>Skills</h3>
-    <ul>
-        <li>Project Coordination | EU Affairs | Veterinary Policy</li>
-        <li>Team Leadership | Public Speaking | Crisis Management</li>
-        <li>Monitoring & Evaluation | Logical Reasoning | MS Office</li>
-        <li>Languages: Czech (C2), English (B2), French (A2), Spanish (A1)</li>
-        <li>Driving License (Group B)</li>
-    </ul>
-</section>
+</div>
+</div>
 
-<!--dovednosti-->
-<section id="courses_certificates" class="courses_certificates">   
-<h3>Courses and certificates</h3>
-    <ul>
-        <li>AZ SMART// 2012-2013</li>
-            <p>Auxiliary Healthcare Worker </p>
-        <li>Horse Taping School// September 2018</li>
-            <p>Horse Taping Course </p> 
-        <li>Clerkship Examination</li> 
-
-            <ul>
-                <li>Veterinary care// November 2019</li>
-                <li>Financing, management and monitoring of the Common Agricultural Policy// August 2022</li>
-                <li>Common European aid and assistance policies, European structural, investment and similar funds// September 2024</li>
-            </ul> <br>
-
-        <li>Central Harmonisation Unit // October 2024</li>   
-         <p>Financial Control Act (training)</p>
-
-        <li>Laba// February-March 2025</li>  
-         <p>Leadership Course</p>
-
-        <li>Czechitas</li>
-         <p>Datová analýza - přeložit - popsat</p>
-         <p> HTML a CSS</p>
-
-        <li>Udemy</li>
-         <p>Full Stack developement</p>
-         
-    </ul>
 </section>
 
     <button type="button" class="btn btn-light"><a id="butt" href="./asses/Hobbies.html">More about me</a></button>
