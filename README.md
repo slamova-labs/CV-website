@@ -3,7 +3,7 @@
 
 This project is my personal CV website, built to present my professional background, skills, and ongoing transition into frontend development and data analysis.
 
-The goal was to create a clean, structured, and user-friendly layout that allows quick navigation while also serving as a practical project to improve my HTML and CSS skills.
+The goal was to create a clean, structured, and user-friendly personal website with responsive design, basic interactivity, and navigation. 
 
 ## Preview
 
@@ -13,11 +13,13 @@ The goal was to create a clean, structured, and user-friendly layout that allows
 
 - Responsive two-column layout using CSS Grid
 
-- Clean and structured design focused on readability
-
 - Navigation bar for quick access to sections
 
+- Light/Dark mode toggle using JavaScript
+
 - Print to PDF functionality for easy export
+
+- Clean and structured design focused on readability
 
 - Footer with links to LinkedIn and GitHub
 
@@ -27,6 +29,8 @@ The goal was to create a clean, structured, and user-friendly layout that allows
 
 - CSS3
 
+- JavaScript
+
 - Bootstrap
 
 - Git & GitHub
@@ -35,24 +39,26 @@ The goal was to create a clean, structured, and user-friendly layout that allows
 
 - Structuring a webpage using semantic HTML
 
-- Creating layouts with CSS Grid
+- Creating responsive layouts for desktop and mobile devices 
 
-- Styling and improving UI/UX through spacing and typography
+- Adding interactive functionality with JavaScript
 
-- Debugging layout issues (e.g. float behavior and alignment)
+- Improving UI/UX through spacing, typography and color contrast
 
 - Working with Git and GitHub (commits, version control, publishing)
 
 ## Future Improvements
 
-- Adding interactive elements using JavaScript
+- Adding more projects to the portfolio section
 
-- Further improving responsiveness for mobile devices
+- Improving accessibility
 
 - Enhancing visual design and animations
+
+- Refactoring CSS for better structure
 
 ## Author
 
 Kristyna Slamova
-- [LinkedIn] (https://www.linkedin.com/in/krist%C3%BDna-sl%C3%A1mov%C3%A1-3a6905168?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
-- [GitHub] (https://github.com/slamova-labs)
+- [LinkedIn](linkedin.com/in/kristýna-slámová-3a6905168)
+- [GitHub](https://github.com/slamova-labs)
