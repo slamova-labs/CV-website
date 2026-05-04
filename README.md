@@ -1,64 +1,51 @@
 # CV Website
-## About the Project
+## 📌 About the Project
 
-This project is my personal CV website, built to present my professional background, skills, and ongoing transition into frontend development and data analysis.
+This project is a responsive personal CV and portfolio website designed to present my professional background, technical skills, and transition into data analysis and frontend development.
 
-The goal was to create a clean, structured, and user-friendly personal website with responsive design, basic interactivity, and navigation. 
+The goal was not only to build a website, but to create a clear and structured presentation of my projects and skills for potential employers.
 
-## Preview
+## 👀 Preview
 
 ![CV Screenshot](screenshot.png)
 
-## Features
+## ⚙️ Features
 
-- Responsive two-column layout using CSS Grid
+- Responsive two-column layout (CSS Grid)
+- Dark / Light mode toggle (JavaScript + localStorage)
+- Print to PDF functionality
+- Structured sections (Projects, Skills, Experience)
+- Clean and readable UI focused on usability
 
-- Navigation bar for quick access to sections
-
-- Light/Dark mode toggle using JavaScript
-
-- Print to PDF functionality for easy export
-
-- Clean and structured design focused on readability
-
-- Footer with links to LinkedIn and GitHub
-
-## Technologies Used
+## 🛠️ Technologies Used
 
 - HTML5
-
 - CSS3
-
 - JavaScript
-
 - Bootstrap
-
 - Git & GitHub
 
-## What I Learned
+## 🧠 Key Learnings
 
-- Structuring a webpage using semantic HTML
+- Structuring a real-world project using semantic HTML
+- Building responsive layouts for different screen sizes
+- Implementing UI interactivity with JavaScript
+- Improving UI/UX design (spacing, hierarchy, readability)
+- Working with Git and version control
 
-- Creating responsive layouts for desktop and mobile devices 
+## 🔗 Live & Repository
 
-- Adding interactive functionality with JavaScript
+👉 GitHub: https://github.com/slamova-labs  
+*(optional: add live link if you deploy it later)*
 
-- Improving UI/UX through spacing, typography and color contrast
+## 🚀 Future Improvements
 
-- Working with Git and GitHub (commits, version control, publishing)
-
-## Future Improvements
-
-- Adding more projects to the portfolio section
-
+- Adding more data-focused projects to portfolio section
 - Improving accessibility
-
 - Enhancing visual design and animations
+- Refactoring CSS using variables and better structure
 
-- Refactoring CSS for better structure
-
-## Author
+## 👩‍💻 Author
 
 Kristyna Slamova
-- [LinkedIn](linkedin.com/in/kristýna-slámová-3a6905168)
-- [GitHub](https://github.com/slamova-labs)
+- [LinkedIn](https://linkedin.com/in/kristýna-slámová-3a6905168)
