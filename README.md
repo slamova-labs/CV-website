@@ -35,7 +35,7 @@ The goal was not only to build a website, but to create a clear and structured p
 
 ## 🔗 Live & Repository
 
-👉 GitHub: https://github.com/slamova-labs/CV-website/edit/main/README.md
+👉 GitHub: https://github.com/slamova-labs/CV-website
 
 ## 🚀 Future Improvements
 
