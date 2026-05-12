@@ -14,6 +14,7 @@ Personal portfolio website presenting my background, technical skills, and selec
 - Bootstrap
 
 ## 📂 Sections
+
 - About Me
 - Skills
 - Featured Projects
